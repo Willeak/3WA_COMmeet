@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/flexbox.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="">
+      <p>COMmeet</p>
+      <div class="display-flex">
+        <nav class="display-flex">
+          <ul
+            class="display-flex flex-row align-space-around text-center width100"
+          >
+            <li>
+              <a href="home.html">Accueil</a>
+            </li>
+            <li><a href="group.html">Groupe</a></li>
+            <li><a href="event.html">Evenement</a></li>
+            <li><a href="profile.html">Mon profil</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="display-flex align-center align-middle social-icon">
+          <img
+            src="img/logo/icon_letter_black.webp"
+            alt="logo de courrier"
+            id="logo"
+            class="logo"
+          />
+        </a>
+      </div>
+    </header>
+
+    <main id="group" class="display-flex align-center">
+      <div>
+        <section class="width100">
+          <nav class="display-flex width100 align-start align-middle">
+            <div>
+              <label for="search"></label>
+              <input
+                type="text"
+                id="search"
+                name="search"
+                placeholder="Rechercher..."
+              />
+            </div>
+
+            <div>
+              <button id="search-button">Rechercher</button>
+            </div>
+          </nav>
+        </section>
+        <section class="display-flex flex-row align-start">
+          <a href="#">
+            <article
+              class="display-flex flex-column width100 align-space-around align-middle"
+            >
+              <img src="img/group/opera.webp" alt="photo d'un opera" />
+              <h2>Opéra de Paris</h2>
+              <div class="recommandation"></div>
+              <span class="width100"> rejoignez un groupe de musique ! </span>
+            </article></a
+          ><a href="#">
+            <article
+              class="display-flex flex-column width100 align-space-around align-middle"
+            >
+              <img src="img/group/mountain.webp" alt="photo d'une randonnée" />
+              <h2>Randonnée</h2>
+              <div class="recommandation"></div>
+              <span class="width100">
+                rejoignez un groupe de randonneur !
+              </span>
+            </article></a
+          >
+        </section>
+      </div>
+    </main>
+
+    <footer class="display-flex align-center width100 footer2">
+      <p>
+        &copy; 2023 COMmeet. Tous droits réservés.<a
+          href="confidentiality.html"
+        >
+          Politique de confidentialité.</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>

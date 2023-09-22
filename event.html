@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/flexbox.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <p>COMmeet</p>
+      <div class="display-flex">
+        <nav class="display-flex">
+          <ul
+            class="display-flex flex-row align-space-around text-center width100"
+          >
+            <li>
+              <a href="home.html">Accueil</a>
+            </li>
+            <li><a href="group.html">Groupe</a></li>
+            <li><a href="event.html">Evenement</a></li>
+            <li><a href="profile.html">Mon profil</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="display-flex align-center align-middle social-icon">
+          <img src="img/logo/icon_letter_black.webp" alt="logo de courrier" />
+        </a>
+      </div>
+    </header>
+
+    <main id="event" class="display-flex align-center">
+      <div>
+        <section class="width100">
+          <nav class="display-flex width100 align-start align-middle">
+            <div>
+              <label for="search"></label>
+              <input
+                type="text"
+                id="search"
+                name="search"
+                placeholder="Rechercher..."
+              />
+            </div>
+
+            <div>
+              <label for="date"></label>
+              <input type="date" id="date" name="date" />
+            </div>
+
+            <div>
+              <div>
+                <label for="disponibility"></label>
+                <select id="disponibility" name="disponibility">
+                  <option value="">Tous</option>
+                  <option value="available">Disponile</option>
+                  <option value="notAvailable">Indisponible</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <button id="search-button">Rechercher</button>
+            </div>
+          </nav>
+        </section>
+        <section class="display-flex flex-row align-start">
+          <a href="#">
+            <article class="display-flex flex-column align-center align-middle">
+              <img src="img/event/opera.webp" alt="photo d'un opera" />
+              <h2>Opéra de Paris</h2>
+              <div class="recommandation"></div>
+              <span class="width100">
+                rejoignez nous pour l'évenement de l'Opéra de paris. Un
+                spectacle hors normes !
+              </span>
+            </article></a
+          ><a href="#">
+            <article class="display-flex flex-column align-center align-middle">
+              <img src="img/event/rando.webp" alt="photo d'une randonnée" />
+              <h2>Randonnée</h2>
+              <div class="recommandation"></div>
+              <span class="width100">
+                On vous donnent rendez vous pour une sortie a pieds qui donnera
+                sur des paysages incroyables !
+              </span>
+            </article></a
+          >
+          <a href="#">
+            <article class="display-flex flex-column align-center align-middle">
+              <img
+                src="img/event/velo.webp"
+                alt="photo d'un groupe de cycliste"
+              />
+              <h2>Balade à vélos</h2>
+              <div class="recommandation"></div>
+              <span class="width100">
+                Sortez votre vélo, il est temps de sortir votre vélo pour balade
+                ensoleillée
+              </span>
+            </article></a
+          >
+        </section>
+      </div>
+    </main>
+
+    <footer class="display-flex align-center width100 footer2">
+      <p>
+        &copy; 2023 COMmeet. Tous droits réservés.
+        <a href="confidentiality.html"> Politique de confidentialité.</a>
+      </p>
+    </footer>
+  </body>
+</html>
